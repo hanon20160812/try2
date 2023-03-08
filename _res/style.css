@@ -1,0 +1,303 @@
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+#bannerBG {
+    position: relative;
+    background-color: #FFF;
+    background-image: url(../_img/banner_BG.png);
+    background-position: center center;
+    background-size: cover;
+
+    height: 40vw;
+    margin-bottom: 100px;
+    /* margin-top: 1.5rem; */
+}
+
+.bannerPP {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+/* 容器 */
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/* 技能 */
+.skill_box {
+    width: 200px;
+    height: 250px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFA4A3;
+    border-radius: 18px;
+
+
+}
+
+.skill_box h4 {
+    color: #FF6F88;
+    font-weight: 600;
+}
+
+.skill_box li {
+    text-align: left;
+    list-style: none;
+    color: #474647;
+}
+
+/* 貼圖 */
+.stickersBG {
+    position: relative;
+    background-image: url(../_img/stickers_BG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vw;
+
+}
+
+
+/* 作品 */
+.Portfolio_BG {
+    background: #FFEEE6;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Portfolio_title {
+    position: relative;
+}
+
+.Portfolio_titleP {
+    position: absolute;
+
+    left: 80px;
+    top: 20px;
+
+}
+
+.Portfolio_titleBG {
+    max-width: 500px;
+    height: 100px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 8px 8px 0px #FF6F88;
+    transform-origin: bottom;
+    transform: skewX(-20deg);
+
+}
+
+.Portfolio_frame {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 80vw;
+    min-height: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 4px solid #FCD8AD;
+    box-shadow: -9px 9px 0px #FBAA80;
+    border-radius: 57px;
+
+    z-index: 2;
+}
+
+.round {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+
+    z-index: 300;
+}
+
+.Portfolio_round {
+    width: 20px;
+    height: 20px;
+    border-radius: 999em;
+}
+
+/* 作品標籤 */
+
+.Portfolio_tag {
+    width: 80px;
+    height: 160px;
+
+    background: #ffffff;
+    border: 4px solid #FCD8AD;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+.Portfolio_tag:hover {
+    background: #FCD8AD;
+    transform: translateY(-20px);
+    transition: all .25s ease-in;
+}
+
+/* 作品框架 */
+
+
+
+
+
+.footer {
+    background: #242324;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    color: #9d9c9e;
+}
+
+
+
+
+/* 商品Banner */
+#product_Banner {
+    margin-top: 1.5rem;
+}
+
+.shop_card a {
+    text-decoration: none;
+}
+
+.shop_card h5:hover {
+    color: #FF6F88;
+}
+
+.shop_card button:hover {
+    color: #FF6F88;
+}
+
+
+
+
+/* 愛心設定 */
+.like-button svg {
+    fill: #242324;
+    /* 默认为黑色 */
+}
+
+.like-button svg :hover {
+    fill: #FF6F88;
+    /* 悬停时变为粉色 */
+}
+
+.like-button svg:active {
+    fill: blue;
+    /* 点击时变为蓝色 */
+}
+
+
+
+
+/* [ 商品祥文 ] */
+/* 說明 */
+.product-title {
+    font-size: 30px;
+    color: #585353;
+}
+
+.product-price {
+    margin-top: 10px;
+}
+
+.current-price {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+.original-price {
+    font-size: 16px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.product-description {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.product-options {
+    margin-top: 20px;
+}
+
+
+
+
+.add-to-cart{
+    display: inline-block;
+    padding: 8px 40px 8px 40px;
+    background-color: #FF6F88;
+    color: white;
+    border-radius: 7px;
+    border:#FF6F88;
+}
+
+.add-to-cart:hover{
+    background-color: #7ec8e6;
+}
+
+
+
+
+
+.proTable .prorow {
+    font-size: 13px;
+    color: #666666;
+    /* display: table-row; */
+}
+
+.proTable .procell {
+    margin: 1.2em 0;
+    /* display: table-cell; */
+}
+
+
+.proTable .pro_size{
+    padding: 6px;
+    min-width: 80px;
+    min-height:30px;  
+}
+
+
+.proTable .pro_color, .proTable .pro_size {
+    display: inline-block;
+    margin: 5px 10px 5px 4px;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.proTable .pro_color:hover, .proTable .pro_size:hover{
+    border: 1px solid #585353;
+}
+
+.proTable .pro_color:active, .proTable .pro_size:active{
+    border: 1px solid #161616;
+}
+
+
+
+
+/* 結帳畫面-pay */
+.p_price {
+    color: red;
+    font-weight: bold;
+}
+
+.p_o_price{
+    color: #B9B9B3;
+}
